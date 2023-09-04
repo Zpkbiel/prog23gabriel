@@ -7,7 +7,7 @@ NUM_LINHAS = 4
 NUM_COLUNAS = 4
 CARTAO_SIZE_W = 10
 CARTAO_SIZE_H = 5
-CORES_CARTAO = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'magenta']
+CORES_CARTAO = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'magenta', 'gray']
 COR_FUNDO = "#343a40"
 COR_LETRA = "#ffffff"
 FONT_STYLE = ('Arial', 12, 'bold')
@@ -52,7 +52,7 @@ def check_math():
 		check_win()
 	else:
 		cartao1.after(1000, lambda:cartao1.config(bg='black'))
-		cartao2.after(1000, lambda:cartao1.config(bg='black'))
+		cartao2.after(1000, lambda:cartao2.config(bg='black'))
 	cartao_revelado.clear()
 	update_score()
 
