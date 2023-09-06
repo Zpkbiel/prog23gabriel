@@ -119,4 +119,4 @@ print(len(grid[0]))  # Deve ser igual a NUM_COLUNAS
 def card_clicked(linha, coluna):
     print("Clicado: linha =", linha, "coluna =", coluna)
     cartao = cartoes[linha][coluna]
-    # ... restante do código ...
+
